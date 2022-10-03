@@ -1,0 +1,52 @@
+body {
+  background: url(https://www.bettercloud.com/wp-content/uploads/bb-plugin/cache/mdblue-pattern-landscape.png);
+  color:white;
+  font-family:"Ubuntu", sans-serif;
+  font-size:1rem;
+}
+
+header {
+  text-align:center;
+}
+
+span {
+  font-size:8px;
+  font-style: none;
+}
+
+.outer {
+  background-color:rgb(0,0,0,0.7);
+  border-radius:5px;
+  width: 600px;
+  max-width: 60%;
+  margin:auto;
+  padding: 2.5rem;
+}
+
+.head-label {
+  display: inline-block;
+  margin: 20px 0 10px 0;
+}
+
+.checkbox-label {
+  display:inline-block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width:100%;
+}
+
+textarea {
+  min-height: 80px
+}
+
+
+.submit {
+  background-color:rgb(50,180,80);
+  border-radius:2px;
+  border:none;
+  color:#FFFFFF;
+  height: 5%;
+  width:100%
+}
