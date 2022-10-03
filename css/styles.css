@@ -42,7 +42,7 @@ textarea {
 }
 
 
-.submit {
+#submit {
   background-color:rgb(50,180,80);
   border-radius:2px;
   border:none;
