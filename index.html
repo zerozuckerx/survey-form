@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="viewport-width: 100%, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?&family=Lexend+Deca&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?&family=Lexend+Deca&family=Ubuntu&family=Poppins:weight@400&display=swap" rel="stylesheet">
     <title></title>
   </head>
   <body>
@@ -29,14 +29,15 @@
           <input class="input" id="number" type="number" name="age" min="10" max="99" placeholder="18">
           <br>
 
-          <label class="head-label" for="role">Which option best describes your current role?</label><br>
-          <select id="dropdown">
-            <option>Select an option</option>
-            <option>Student</option>
-            <option>Full Time Job</option>
-            <option>Full Time Learner</option>
-            <option>Other</option>
-          </select><br>
+          <label class="head-label">Which option best describes your current role?<br>
+            <select id="dropdown">
+              <option>Select an option</option>
+              <option>Student</option>
+              <option>Full Time Job</option>
+              <option>Full Time Learner</option>
+              <option>Other</option>
+            </select><br>
+          </label>
 
           <label class="head-label" id="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
           <input id="definitely" type="radio" name="recommend" value="definitely" checked>
@@ -71,7 +72,7 @@
             <label class="checkbox-label" for="courses">Additional Courses</label><br>
 
           <label class="head-label" for="suggestions">Any comments or suggestions?</label><br>
-          <textarea class="input" form="survey-form" >Enter your comment here..."</textarea>
+          <textarea class="input" form="survey-form" placeholder="Enter your comment here..."></textarea>
           <br>
           <br>
 
